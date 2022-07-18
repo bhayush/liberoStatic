@@ -9,6 +9,9 @@ import useAnimatedNavToggler from "../helpers/useAnimatedNavToggler.js";
 import logo from "../images/icon.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
+import { Link } from "react-router-dom"
+// import { HashLink as Link } from "react-router-hash-link";
+
 
 const Header = tw.header`
   flex justify-between items-center
@@ -72,14 +75,13 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
-      {/* <NavLink href="/#" tw="lg:ml-12!">
+       <NavLink> <Link to="/">Home</Link></NavLink>
+      <NavLink><Link to="/about">About</Link></NavLink>
+      <NavLink> <Link to="/contact">Contact Us</Link></NavLink>
+      {/* <NavLink to="/#" tw="lg:ml-12!">
         Login
       </NavLink> */}
-      {/* <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Sign Up</PrimaryLink> */}
+      {/* <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}to="/#">Sign Up</PrimaryLink> */}
     </NavLinks>
   ];
 
@@ -87,7 +89,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
   const defaultLogoLink = (
-    <LogoLink href="/">
+    <LogoLink to="/">
       <img src={logo} alt="logo" />
       LIBERO HEALTH
     </LogoLink>

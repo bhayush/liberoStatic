@@ -1,0 +1,75 @@
+# Query: treact
+# Including: ./
+# ContextLines: 1
+
+20 results - 7 files
+
+package-lock.json:
+  1  {
+  2:   "name": "LH",
+  3    "version": "1.0.0",
+
+  7      "": {
+  8:       "name": "LH",
+  9        "version": "1.0.0",
+
+package.json:
+  1  {
+  2:   "name": "LH",
+  3    "version": "1.0.0",
+
+public/_redirects:
+  1:  301!
+  2:  301!
+  3  /*  /index.html  200
+
+public/index.html:
+  39      />
+  40:     <meta property="og:site_name" content="Libero Health" />
+  41      <meta property="og:title" content="Libero Health" />
+
+  47        property="og:image"
+  48:       content="Libero Health"
+  49      />
+
+  59      <meta name="twitter:image"
+  60:     content="Libero Health" />
+  61    </head>
+
+public/manifest.json:
+  1  {
+  2:   "short_name": "Libero",
+  3:   "name": "Libero Health - A connected Health Platform",
+  4    "icons": [
+
+src/components/ContactFooter.js:
+  138              <LogoImg src={LogoImage} />
+  139:             <LogoText>Treact Inc.</LogoText>
+  140            </LogoContainer>
+  141:           <CopywrightNotice>&copy; 2018 Treact Inc. All Rights Reserved.</CopywrightNotice>
+  142            <SocialLinksContainer>
+
+src/pages/ContactUs.js:
+  29                  </Address>
+  30:                 <Email>contact@treact.com</Email>
+  31                  <Phone>+1 (203) 991-6988</Phone>
+
+  42                  </Address>
+  43:                 <Email>contact@treact.com</Email>
+  44                  <Phone>+1 (203) 991-6988</Phone>
+
+  55                  </Address>
+  56:                 <Email>contact@treact.com</Email>
+  57                  <Phone>+1 (203) 991-6988</Phone>
+
+  68                  </Address>
+  69:                 <Email>contact@treact.com</Email>
+  70                  <Phone>+1 (203) 991-6988</Phone>
+
+  81                  </Address>
+  82:                 <Email>contact@treact.com</Email>
+  83                  <Phone>+1 (203) 991-6988</Phone>
+
+  94                  </Address>
+  95:                 <Email>contact@treact.com</Email>
+  96                  <Phone>+1 (203) 991-6988</Phone>

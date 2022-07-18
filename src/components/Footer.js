@@ -8,6 +8,8 @@ import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-9.svg";
+import { Link } from "react-router-dom"
+// import { HashLink as Link } from "react-router-hash-link";
 
 const Container = tw.div`relative bg-primary-500 text-gray-100 -mb-8 -mx-8 px-8 py-20 lg:py-24`;
 const Content = tw.div`max-w-screen-xl mx-auto relative z-10`;
@@ -18,8 +20,8 @@ const Column = tw.div`px-4 sm:px-0 sm:w-1/3 md:w-auto mt-12`;
 const ColumnHeading = tw.h5`uppercase font-bold`;
 
 const LinkList = tw.ul`mt-6 text-sm font-medium`;
-const LinkListItem = tw.li`mt-3`;
-const Link = tw.a`border-b-2 border-transparent hocus:border-gray-100 pb-1 transition duration-300`;
+const LinkListItem = tw.li`mt-3 border-b-2 border-transparent hocus:border-gray-100 pb-1 transition duration-300`;
+// const Link = tw.a`border-b-2 border-transparent hocus:border-gray-100 pb-1 transition duration-300`;
 
 const Divider = tw.div`my-16 border-b-2 border-primary-700 w-full`;
 
@@ -54,35 +56,33 @@ export default () => {
         <FiveColumns>
           <Column>
             <ColumnHeading>Main</ColumnHeading>
+            <LinkListItem>
+                <Link to="/">Home</Link>
+              </LinkListItem>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+                <Link to="/about">About Us</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+                <Link to="/contact">Contact Us</Link>
               </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Support</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">About Us</Link>
-              </LinkListItem>
+              
             </LinkList>
           </Column>
           {/* <Column>
             <ColumnHeading>Product</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+                <Link to="#">Log In</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Personal</Link>
+                <Link to="#">Personal</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Business</Link>
+                <Link to="#">Business</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Team</Link>
+                <Link to="#">Team</Link>
               </LinkListItem>
             </LinkList>
           </Column> */}
@@ -90,16 +90,16 @@ export default () => {
             <ColumnHeading>Services</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">For Patients</Link>
+                <Link to="#">For Patients</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">For Business Partners</Link>
+                <Link to="/business-partner">For Business Partners</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">For Healthcare Providers</Link>
+                <Link to="/healthcare-provider">For Healthcare Providers</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#"></Link>
+                <Link to="#"></Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -107,16 +107,16 @@ export default () => {
             <ColumnHeading>Team</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Career</Link>
+                <Link to="#">Career</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Founders</Link>
+                <Link to="#">Founders</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Culture</Link>
+                <Link to="#">Culture</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Onboarding</Link>
+                <Link to="#">Onboarding</Link>
               </LinkListItem>
             </LinkList>
           </Column> */}
@@ -124,16 +124,13 @@ export default () => {
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">GDPR</Link>
+                <Link to="#">Privacy Policy</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
+                <Link to="#">Terms of Service</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Terms of Service</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Disclaimer</Link>
+                <Link to="#">Disclaimer</Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -146,13 +143,13 @@ export default () => {
           </LogoContainer>
           <CopywrightNotice>&copy; 2022 Libero Health. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink to="https://facebook.com">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            <SocialLink to="https://twitter.com">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink to="https://youtube.com">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
