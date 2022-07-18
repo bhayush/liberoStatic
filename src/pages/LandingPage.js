@@ -20,6 +20,7 @@ import macHeroScreenshotImageSrc from "images/phone.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+
 // import ContactUs from "pages/ContactUs";
 
 export default () => {
