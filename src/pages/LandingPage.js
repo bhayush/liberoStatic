@@ -20,9 +20,6 @@ import macHeroScreenshotImageSrc from "images/phone.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
-import { Route, Routes } from "react-router-dom";
-import App from 'App'
-import AboutUs from "./pages/AboutUs"
 // import ContactUs from "pages/ContactUs";
 
 export default () => {

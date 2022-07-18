@@ -4,7 +4,7 @@ import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
 import { Routes, Route } from "react-router-dom";
-import LandingPage from "LandingPage";
+import LandingPage from "pages/LandingPage";
 import About from 'pages/AboutUs'
 import Contact from 'pages/ContactUs'
 import Business from "pages/BusinessPartners";
