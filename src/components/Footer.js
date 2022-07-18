@@ -56,10 +56,11 @@ export default () => {
         <FiveColumns>
           <Column>
             <ColumnHeading>Main</ColumnHeading>
-            <LinkListItem>
+           
+            <LinkList>
+             <LinkListItem>
                 <Link to="/">Home</Link>
               </LinkListItem>
-            <LinkList>
               <LinkListItem>
                 <Link to="/about">About Us</Link>
               </LinkListItem>
