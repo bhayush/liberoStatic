@@ -18,7 +18,7 @@ const StatValue = tw.div`text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-black
 
 export default ({
   subheading = "",
-  heading = "Over 9000 Projects Completed",
+  heading = "Over 9000 Doctors Associated",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   stats = [
     {

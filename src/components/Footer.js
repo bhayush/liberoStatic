@@ -91,7 +91,7 @@ export default () => {
             <ColumnHeading>Services</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link to="#">For Patients</Link>
+                <Link to="/">For Patients</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link to="/business-partner">For Business Partners</Link>
@@ -125,10 +125,10 @@ export default () => {
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link to="#">Privacy Policy</Link>
+                <a href="https://jolly-plant-049f0f910.1.azurestaticapps.net/privacy-policy.html" rel="noreferrer noopener" target="_blank">Privacy Policy</a>
               </LinkListItem>
               <LinkListItem>
-                <Link to="#">Terms of Service</Link>
+                <a href="https://jolly-plant-049f0f910.1.azurestaticapps.net/tnc.html" rel="noreferrer noopener" target="_new">Terms of Service</a>
               </LinkListItem>
               <LinkListItem>
                 <Link to="#">Disclaimer</Link>

@@ -59,7 +59,7 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
- description="Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
+ description=" Our app is modern easy to install and use. Fully functional with a variety of features.",
   primaryButtonText="Get Started",
   primaryButtonUrl="#",
   watchVideoButtonText="Watch Video",
