@@ -17,7 +17,7 @@ import GetStarted from "components/GetStarted";
 import Footer from "components/Footer.js";
 import heroScreenshotImageSrc from "images/about.svg";
 import macHeroScreenshotImageSrc from "images/phone.png";
-import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
+import prototypeIllustrationImageSrc from "images/join.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 

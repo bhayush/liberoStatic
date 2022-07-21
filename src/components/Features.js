@@ -5,17 +5,20 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
+import { ArrowRight } from 'react-bootstrap-icons';
 
 import defaultCardImage from "images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomizeIconImage from "images/customize-icon.svg";
-import FastIconImage from "images/fast-icon.svg";
-import ReliableIconImage from "images/reliable-icon.svg";
-import SimpleIconImage from "images/simple-icon.svg";
+import ReportIconImage from "images/icons/clipboard2-pulse.svg";
+import CardIconImage from "images/icons/credit-card.svg";
+import CarIconImage from "images/icons/car-front.svg";
+import DashIconImage from "images/icons/graph-up.svg";
+import CalendarIconImage from "images/icons/calendar-plus.svg";
+import BellIconImage from "images/icons/bell.svg";
+import LaptopIconImage from "images/icons/laptop.svg";
+
 
 const Container = tw.div`relative`;
 
@@ -69,15 +72,16 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
 
   const defaultCards = [
     {
-      imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      imageSrc: LaptopIconImage,
+      title: "Telehealth",
+      description: "Best doctors of the country on click of a button"
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: CalendarIconImage, title: "Appointments", description: "Consult top doctors of your city in a jiffy" },
+    { imageSrc: ReportIconImage, title: "Electronic Health Record", description: "All your medical reports, prescription etc. at one place. Safe and secure with us." },
+    { imageSrc: DashIconImage, title: "Real Time Dashboard", description:"Get realtime updates and manage all your appointments seamlessly across devices" },
+    { imageSrc: CardIconImage, title: "Seamless Payments", description:"Same day settlements and state of art payment gateway all for you!" },
+    { imageSrc: CarIconImage, title:"Non-emergency Transport", description: "Out of town and want someone to take your dependants for a health check up. Worry not!" },
+   
   ];
 
   if (!cards) cards = defaultCards;
