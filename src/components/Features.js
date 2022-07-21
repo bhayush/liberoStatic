@@ -5,7 +5,6 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { SectionDescription } from "components/misc/Typography.js";
-import { ArrowRight } from 'react-bootstrap-icons';
 
 import defaultCardImage from "images/shield-icon.svg";
 
@@ -16,7 +15,7 @@ import CardIconImage from "images/icons/credit-card.svg";
 import CarIconImage from "images/icons/car-front.svg";
 import DashIconImage from "images/icons/graph-up.svg";
 import CalendarIconImage from "images/icons/calendar-plus.svg";
-import BellIconImage from "images/icons/bell.svg";
+// import BellIconImage from "images/icons/bell.svg";
 import LaptopIconImage from "images/icons/laptop.svg";
 
 
