@@ -108,7 +108,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
           </Column>
         ))}
       </ThreeColumnContainer>
-      <DecoratorBlob />
+      {/* <DecoratorBlob /> */}
     </Container>
   );
 };

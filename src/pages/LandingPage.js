@@ -20,6 +20,7 @@ import macHeroScreenshotImageSrc from "images/phone.png";
 import prototypeIllustrationImageSrc from "images/join.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+import DownloadApp from "components/DownloadApp";
 
 // import ContactUs from "pages/ContactUs";
 
@@ -48,7 +49,7 @@ export default () => {
         imageBorder={true}
         imageDecoratorBlob={true}
       />
-      <FeatureWithSteps
+      {/* <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
         heading={
           <>
@@ -59,7 +60,8 @@ export default () => {
         imageSrc={macHeroScreenshotImageSrc}
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
-      />
+      /> */}
+      <DownloadApp/>
       <MainFeature2
         subheading={<Subheading>VALUES</Subheading>}
         heading={
