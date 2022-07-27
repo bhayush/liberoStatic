@@ -77,9 +77,9 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     },
     { imageSrc: CalendarIconImage, title: "Appointments", description: "Consult top doctors of your city in a jiffy" },
     { imageSrc: ReportIconImage, title: "Electronic Health Record", description: "All your medical reports, prescription etc. at one place. Safe and secure with us." },
-    { imageSrc: DashIconImage, title: "Real Time Dashboard", description:"Get realtime updates and manage all your appointments seamlessly across devices" },
+    { imageSrc: DashIconImage, title: "ePharmacy", description:"Get realtime updates and manage all your appointments seamlessly across devices" },
     { imageSrc: CardIconImage, title: "Seamless Payments", description:"Same day settlements and state of art payment gateway all for you!" },
-    { imageSrc: CarIconImage, title:"Non-emergency Transport", description: "Out of town and want someone to take your dependants for a health check up. Worry not!" },
+    { imageSrc: CarIconImage, title:"Electronic Prescription", description: "Out of town and want someone to take your dependants for a health check up. Worry not!" },
    
   ];
 
