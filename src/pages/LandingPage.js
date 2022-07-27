@@ -32,9 +32,9 @@ export default () => {
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
       
-        
+      <DownloadApp/>
      
-      <FeatureStats/>
+      
       <Features
         subheading={<Subheading>Features</Subheading>}
         heading={
@@ -61,9 +61,9 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       /> */}
-      <DownloadApp/>
+      <FeatureStats/>
       <MainFeature2
-        subheading={<Subheading>VALUES</Subheading>}
+        subheading={<Subheading>PRINCIPLES</Subheading>}
         heading={
           <>
             We Always Abide by Our <HighlightedText>Principles.</HighlightedText>

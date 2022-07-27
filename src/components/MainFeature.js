@@ -47,7 +47,7 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Libero Health is a cutting-edge health technologies and services startup building innovative connected health platform services, offering scalable solutions for patients, healthcare providers and business partners of all sizes. We built our solutions by closely listening to patients and understanding their expectations with our product. We know how to analyze this information and customize our offering to meeting patients needs. Connected health solutions are at the core of all that we do at Libero Health. Our main goal is finding smart ways of using digital technology and cloud computing with Artificial Intelligence that will help build a better tomorrow for patients connecting with healthcare providers and business partners.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
