@@ -9,9 +9,9 @@ import MainFeature1 from "components/MainFeature.js";
 import Features from "components/AboutFeatures.js";
 
 
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomerLoveIconImage from "images/simple-icon.svg";
+import SupportIconImage from "images/icons/support.svg";
+import ShieldIconImage from "images/icons/strong-team.svg";
+import CustomerLoveIconImage from "images/icons/satisfaction.svg";
 
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
